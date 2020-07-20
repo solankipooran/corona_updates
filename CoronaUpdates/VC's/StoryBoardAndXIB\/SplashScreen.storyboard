@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wda-Jo-R8o">
+            <objects>
+                <viewController id="jST-UM-s9Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="37l-U4-6B7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5I9-rM-Icy">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Itb-T7-Eog"/>
+                                    <constraint firstAttribute="height" constant="240" id="eeV-EM-a85"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corona Updates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4q0-W8-uFj">
+                                <rect key="frame" x="102" y="663" width="210.5" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="U4x-sT-ese"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5I9-rM-Icy" firstAttribute="centerY" secondItem="37l-U4-6B7" secondAttribute="centerY" id="Pdh-mh-jgX"/>
+                            <constraint firstItem="4q0-W8-uFj" firstAttribute="centerX" secondItem="37l-U4-6B7" secondAttribute="centerX" id="gMY-D6-D4Y"/>
+                            <constraint firstItem="5I9-rM-Icy" firstAttribute="centerX" secondItem="37l-U4-6B7" secondAttribute="centerX" id="h9C-jY-nu5"/>
+                            <constraint firstItem="jfI-J8-gKg" firstAttribute="bottom" secondItem="4q0-W8-uFj" secondAttribute="bottom" constant="147" id="w2Q-SR-v8l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jfI-J8-gKg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rrE-lf-FXV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166.66666666666669" y="120.53571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashIcon" width="256" height="256"/>
+    </resources>
+</document>
